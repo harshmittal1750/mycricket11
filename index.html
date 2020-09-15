@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <title>Home - MyCricket11</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
-<style>
-    table,
-    th,
-    td {
-        border: 1px solid black;
-    }
-</style>
 
 <body>
+    <!-- navbar -->
     <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-MyCricket11" href="index.html">MyCricket11</a><button data-toggle="collapse"
-                data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar navbar-brand" href="index.html">MyCricket11</a>
+            <button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -31,10 +30,13 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" href="#about">About us</a>
+                        <a class="nav-link" href="#sponsor">Sponsors</a>
                     </li>
                     <li class="nav-item" role="presentation">
                         <a class="nav-link" href="#contact">Contact us</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a href="#highpaid" class="nav-link">Statistics</a>
                     </li>
                     <li class="nav-item" role="presentation">
                         <a class="nav-link" href="#post">Blog Post</a>
@@ -43,230 +45,93 @@
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background-image: url('assets/img/skynews-ms-dhoni-india-cricket_5068521.jpg')">
+
+    <!-- banner -->
+    <header class="masthead"
+        style="background: url('assets/img/skynews-ms-dhoni-india-cricket_5068521.jpg'); height: 80vh;">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto">
                     <div class="site-heading">
-                        <h1>Clean Blog</h1>
-                        <span class="subheading">A Blog Theme by Start Bootstrap</span>
+                        <h1>My Blogs</h1>
+                        <span class="subheading">A Blog on Cricket Legends who make the history</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <div class="container">
+
+    <!-- Latest post -->
+    <div class="container" id="post">
         <div class="row">
-            <div class="col-md-10 col-lg-8">
+            <div class="col-12 col-md-9 mx-auto">
+                <h4 style="font-family: cursive;"><i>Latest Posts</i></h4>
                 <div class="post-preview">
                     <a href="#">
                         <h2 class="post-title">
-                            Man must explore, and this is exploration at its greatest
+                            IPL 2020: All you need to know Full schedule, squads, replacements, date, India timings and When and Where to Watch Live
                         </h2>
-                        <h3 class="post-subtitle">
-                            Problems look mighty small from 150 miles up
-                        </h3>
+                        <h4 class="post-subtitle">
+                            With IPL 2020 around the corner, teams have already started to formulate their penultimate plans. Here’s all you need to know about the 13th edition of the Indian Premier League (IPL 2020). Read more...
+                        </h4>
                     </a>
                     <p class="post-meta">
-                        Posted by&nbsp;<a href="#">Start Bootstrap on September 24, 2018</a>
+                        <a href="#">Posted on September 16, 2020</a>
                     </p>
                 </div>
-                <hr />
                 <div class="post-preview">
                     <a href="#">
                         <h2 class="post-title">
-                            I believe every human has a finite number of heartbeats. I don't
-                            intend to waste any of mine.
+                            ENG vs AUS 3rd ODI Preview Dream11 Possible Playing 11 Pitch Report
                         </h2>
+                        <h4 class="post-subtitle">
+                            Had you stopped watching the second ODI when the home side was reeling at 149/8, you
+                            would have been in shock at the result. The same applies when the tourists were sitting
+                            pretty at 144/2, Read more...
+                        </h4>
                     </a>
                     <p class="post-meta">
-                        Posted by&nbsp;<a href="#">Start Bootstrap on September 18, 2018</a>
+                        <a href="#">Posted on September 15, 2020</a>
                     </p>
                 </div>
-                <hr />
                 <div class="post-preview">
                     <a href="#">
-                        <h2 class="post-title">Science has not yet mastered prophecy</h2>
-                        <h3 class="post-subtitle">
-                            We predict too much for the next year and yet far too little for
-                            the next ten.
-                        </h3>
+                        <h2 class="post-title">
+                            Australia do an England (again)
+                        </h2>
+                        <h4 class="post-subtitle">
+                            Remember the climax of Indiana Jones And The Last Crusade? He finds a room full of
+                            goblets and an awful lot of cobwebs. Read more...
+                        </h4>
                     </a>
                     <p class="post-meta">
-                        Posted by&nbsp;<a href="#">Start Bootstrap on August 24, 2018</a>
+                        <a href="#">Posted on September 14, 2020</a>
                     </p>
                 </div>
+
                 <hr />
-                <div class="post-preview">
-                    <a href="#">
-                        <h2 class="post-title">Failure is not an option</h2>
-                        <h3 class="post-subtitle">
-                            Many say exploration is part of our destiny, but it’s actually
-                            our duty to future generations.
-                        </h3>
-                    </a>
-                    <p class="post-meta">
-                        Posted by&nbsp;<a href="#">Start Bootstrap on July 8, 2018</a>
-                    </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                    <button class="btn btn-primary float-right" type="button">
+                <div class="clearfix mb-5 text-center">
+                    <button class="btn btn-primary" type="button">
                         Older Posts&nbsp;⇒
                     </button>
                 </div>
             </div>
         </div>
     </div>
-    <article>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto">
-                    <p>
-                        Never in all their history have men been able truly to conceive of
-                        the world as one: a single sphere, a globe, having the qualities
-                        of a globe, a round earth in which all the directions eventually
-                        meet, in which there is no center because every point, or none, is
-                        center — an equal earth which all men occupy as equals. The
-                        airman's earth, if free men make it, will be truly round: a globe
-                        in practice, not in theory.
-                    </p>
-                    <p>
-                        Science cuts two ways, of course; its products can be used for
-                        both good and evil. But there's no turning back from science. The
-                        early warnings about technological dangers also come from science.
-                    </p>
-                    <p>
-                        What was most significant about the lunar voyage was not that man
-                        set foot on the Moon but that they set eye on the earth.
-                    </p>
-                    <p>
-                        A Chinese tale tells of some men sent to harm a young girl who,
-                        upon seeing her beauty, become her protectors rather than her
-                        violators. That's how I felt seeing the Earth for the first time.
-                        I could not help but love and cherish her.
-                    </p>
-                    <p>
-                        For those who have seen the Earth from space, and for the hundreds
-                        and perhaps thousands more who will, the experience most certainly
-                        changes your perspective. The things that we share in our world
-                        are far more valuable than those which divide us.
-                    </p>
-                    <h2 class="section-heading">Heading</h2>
-                    <p>
-                        There can be no thought of finishing for ‘aiming for the stars.’
-                        Both figuratively and literally, it is a task to occupy the
-                        generations. And no matter how much progress one makes, there is
-                        always the thrill of just beginning.
-                    </p>
-                    <p>
-                        There can be no thought of finishing for ‘aiming for the stars.’
-                        Both figuratively and literally, it is a task to occupy the
-                        generations. And no matter how much progress one makes, there is
-                        always the thrill of just beginning.
-                    </p>
-                    <blockquote class="blockquote">
-                        <p class="mb-0">
-                            The dreams of yesterday are the hopes of today and the reality
-                            of tomorrow. Science has not yet mastered prophecy. We predict
-                            too much for the next year and yet far too little for the next
-                            ten.
-                        </p>
-                    </blockquote>
-                    <p>
-                        Spaceflights cannot be stopped. This is not the work of any one
-                        man or even a group of men. It is a historical process which
-                        mankind is carrying out in accordance with the natural laws of
-                        human development.
-                    </p>
-                    <h2 class="section-heading">Reaching for the Stars</h2>
-                    <p>
-                        As we got further and further away, it [the Earth] diminished in
-                        size. Finally it shrank to the size of a marble, the most
-                        beautiful you can imagine. That beautiful, warm, living object
-                        looked so fragile, so delicate, that if you touched it with a
-                        finger it would crumble and fall apart. Seeing this has to change
-                        a man.
-                    </p>
-                    <a href="#"><img class="img-fluid" src="assets/img/post-sample-image.jpg" /></a><span
-                        class="caption text-muted">To go places and do things that have never been done before –
-                        that’s what living is all about.</span>
-                    <p>
-                        Space, the final frontier. These are the voyages of the Starship
-                        Enterprise. Its five-year mission: to explore strange new worlds,
-                        to seek out new life and new civilizations, to boldly go where no
-                        man has gone before.
-                    </p>
-                    <p>
-                        As I stand out here in the wonders of the unknown at Hadley, I
-                        sort of realize there’s a fundamental truth to our nature, Man
-                        must explore, and this is exploration at its greatest.
-                    </p>
-                    <p>
-                        <span>Placeholder text by&nbsp;</span><a href="http://spaceipsum.com">Space
-                            Ipsum</a><span>&nbsp;Photographs by&nbsp;</span><a
-                            href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </article>
 
-    <div class="container mr-5">
+    <!-- table -->
+    <div class="container d-flex justify-content-center" id="highpaid">
         <table border="1" cellpadding="0" cellspacing="0" class="MsoTable15Plain1" style="
-    border-collapse: collapse;
-    border: none;
-  
-    width: 629px;
-  ">
+    border-collapse: collapse; border: none; width: 629px;">
             <tbody>
-                <tr style="
-        height: 7.25pt;
-       
-      ">
-                    <td colspan="5" style="
-          background: black;
-          text-align: center;
-          width: 349.55pt;
-        " valign="top" width="466">
-                        <p style="
-            line-height: normal;
-            text-align: center;
-          ">
-                            <b><span style="
-                color: white;
-                font-size: 19pt;
-                text-align: center;
-                mso-themecolor: background1;
-              ">Highest Paid Cricketers in the World 2020
-
-                        </p>
-                    </td>
-                    <td style="
-          background: black;
-          border-left: none;
-          border: solid windowtext 1pt;
-          height: 7.25pt;
-          mso-background-themecolor: text1;
-          mso-border-alt: solid windowtext 0.5pt;
-          mso-border-left-alt: solid windowtext 0.5pt;
-          padding: 0in 5.4pt 0in 5.4pt;
-          width: 1.7in;
-        " valign="top" width="163">
-                        <p class="MsoNormal" style="
-            line-height: normal;
-            margin-bottom: 0.0001pt;
-            margin-bottom: 0in;
-            mso-yfti-cnfc: 1;
-          ">
-                            <b><span style="
-                color: white;
-                font-size: 12pt;
-                mso-themecolor: background1;
-              ">
-                                    <o:p>&nbsp;</o:p>
-                                </span></b>
+                <tr style="height: 7.25pt;">
+                    <td colspan="6" style="background: black;text-align: center;width: 349.55pt;" valign="top" width="466">
+                        <p style="line-height: normal; text-align: center;">
+                            <b>
+                                <span style="color: white;font-size: 19pt;text-align: center;mso-themecolor: background1;">Highest Paid Cricketers in the World 2020
+                                </span>
+                            </b>
                         </p>
                     </td>
                 </tr>
@@ -287,7 +152,7 @@
                 
                 font-size: 10pt;
               ">Cricketers<o:p></o:p></span></b>
-                        </p>
+
                     </td>
                     <td>
 
@@ -375,10 +240,10 @@
                         <span style=" font-size: 10pt">$4 million<o:p></o:p></span>
                         </p>
                     </td>
-                    <td <span style=" font-size: 10pt">$24 million<o:p></o:p></span>
+                    <td> <span style=" font-size: 10pt">$24 million<o:p></o:p></span>
                         </p>
                     </td>
-                    <td <span style=" font-size: 10pt">$28 million<o:p></o:p></span>
+                    <td><span style=" font-size: 10pt">$28 million<o:p></o:p></span>
                         </p>
                     </td>
                     <td>
@@ -1149,46 +1014,43 @@
         </table>
     </div>
 
-    <div class="container">
+    <!-- sponsors -->
+    <div class="container my-5" id="sponsor">
+        <h2 class="text-center">Our Sponsors</h2>
         <div class="row">
-            <div class="col-md-10 col-lg-8 mx-auto">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
-                    nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis
-                    sit soluta odio, adipisci quas excepturi maxime quae totam ducimus
-                    consectetur?
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-                    praesentium recusandae illo eaque architecto error, repellendus
-                    iusto reprehenderit, doloribus, minus sunt. Numquam at quae
-                    voluptatum in officia voluptas voluptatibus, minus!
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-                    consequuntur magnam, excepturi aliquid ex itaque esse est vero natus
-                    quae optio aperiam soluta voluptatibus corporis atque iste neque sit
-                    tempora!
-                </p>
+            <div class="col-12 col-sm-4 d-flex justify-content-center align-items-center">
+                <img src="./assets/img/b1782a52-009d-46f0-9c2d-791bc40f8b24.jpg" alt="" width="80%">
+            </div>
+            <div class="col-12 col-sm-4 d-flex justify-content-center align-items-center">
+                <img src="./assets/img/hindustan-times-classifieds-chandigarh-sector-17-chandigarh-advertising-agencies-hoq9h9-250.jpg" alt="" width="80%">
+            </div>
+            <div class="col-12 col-sm-4 d-flex justify-content-center align-items-center">
+                <img src="./assets/img/toi-logo.jpg" alt="" width="80%">
             </div>
         </div>
     </div>
-    <footer>
+
+    <!-- footer -->
+    <footer id="contact" class="bg-light">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto">
+                <div class="col-12 col-sm-4">
+                    <h4>To get the latest updates, Subscribe us</h4>
+                    <button class="btn btn-primary">Subscribe&nbsp; ⇒</button>
+                </div>
+                <div class="col-12 col-sm-8">
                     <ul class="list-inline text-center">
                         <li class="list-inline-item">
                             <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
-                                    class="fa fa-twitter fa-stack-1x fa-inverse"></i></span>
+                                    class="fab fa-twitter fa-stack-1x fa-inverse"></i></span>
                         </li>
                         <li class="list-inline-item">
                             <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
-                                    class="fa fa-facebook fa-stack-1x fa-inverse"></i></span>
+                                    class="fab fa-facebook fa-stack-1x fa-inverse"></i></span>
                         </li>
                         <li class="list-inline-item">
                             <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
-                                    class="fa fa-github fa-stack-1x fa-inverse"></i></span>
+                                    class="fab fa-instagram fa-stack-1x fa-inverse"></i></span>
                         </li>
                     </ul>
                     <p class="text-muted copyright">Copyright&nbsp;©&nbsp;MyCricket11 2020</p>
